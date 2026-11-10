@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>取引先の追加連絡先電話番号（AdditionalPhone__c）を参照・編集できるようにする権限セット（Issue #4）</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>追加連絡先電話番号の利用</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AdditionalPhone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

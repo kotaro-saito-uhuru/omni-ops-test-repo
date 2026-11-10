@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalPhone__c</fullName>
+    <description>標準の電話番号とは別に持つ、取引先の追加連絡先電話番号（Issue #4）</description>
+    <externalId>false</externalId>
+    <label>追加連絡先電話番号</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Phone</type>
+</CustomField>
